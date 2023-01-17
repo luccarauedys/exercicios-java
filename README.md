@@ -55,3 +55,24 @@
 ## Exercício 06 - Olá, Spring!
 
 > Crie um projeto Spring com uma das ferramentas aprendidas hoje, e crie um controlador rest que contenha um endpoint, que retona a String “Olá Spring”.
+
+## Exercício 07 - Cars api
+
+> Crie uma api Spring que seja capaz de receber os seguintes dados via POST:
+
+```json
+{
+  "modelo": "Fiat Argo 1.3",
+  "fabricante": "Fiat",
+  "dataFabricacao": "10/02/2006",
+  "valor": 10000.0,
+  "anoModelo": 2023
+}
+```
+
+### ✅ Requisitos
+
+- [ ] Criar um controller que represente o formato dos dados fornecidos
+- [ ] Criar uma rota de api que possa ser consumida via POST
+- [ ] Criar um DTO que represente os dados recebidos
+- [ ] Imprimir no console do Spring alguns dos dados pegando do DTO recebidos via post.
