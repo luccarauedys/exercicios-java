@@ -14,7 +14,8 @@
 333
 4444
 55555
-``` 
+```
+
 ## Exercício 03 - Representando o mundo
 
 > Sabemos que existe uma plataforma muito famosa (respondeAí), que busca ajudar as pessoas estudantes que estão com dificuldade em algumas matérias. Pensando em algo que possa representar essa plataforma, escreva pelo menos 2 classes com propriedades e métodos que possa representar o modelo da plataforma! Atenção, use da melhor maneira a composição, encapsulamento e as boas práticas que aprendeu em aula.
@@ -47,6 +48,10 @@
 
 ### ✅ Requisitos
 
-- [ ]  Ter uma classe separada para trabalhar com os feriados
-- [ ]  Ter um função que recebe um parâmetro string que é a data do feriado! Caso não exista exibe uma mensagem dizendo que não existe feriado com tal dada, caso exista, buscar na lista de feriados o feriado com a data e imprimir uma mensagem informando a qual feriado se refere.
-- [ ]  Ter uma função que retorna a lista com todos os feriados.
+- [ ] Ter uma classe separada para trabalhar com os feriados
+- [ ] Ter um função que recebe um parâmetro string que é a data do feriado! Caso não exista exibe uma mensagem dizendo que não existe feriado com tal dada, caso exista, buscar na lista de feriados o feriado com a data e imprimir uma mensagem informando a qual feriado se refere.
+- [ ] Ter uma função que retorna a lista com todos os feriados.
+
+## Exercício 06 - Olá, Spring!
+
+> Crie um projeto Spring com uma das ferramentas aprendidas hoje, e crie um controlador rest que contenha um endpoint, que retona a String “Olá Spring”.
